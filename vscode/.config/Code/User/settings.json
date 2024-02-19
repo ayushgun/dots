@@ -1,0 +1,94 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.layoutControl.enabled": false,
+  "files.associations": {
+    "*.json": "json"
+  },
+  "workbench.tips.enabled": false,
+  "window.commandCenter": false,
+  // Editor
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 17,
+  "editor.formatOnSave": true,
+  "editor.minimap.autohide": true,
+  "editor.foldingHighlight": false,
+  "editor.smoothScrolling": true,
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "none",
+  "editor.guides.indentation": false,
+  "editor.inlayHints.enabled": "off",
+  "explorer.sortOrder": "type",
+  "editor.bracketPairColorization.enabled": false,
+  // C++
+  "[cpp]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  // C
+  "[c]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+  // LaTeX
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "[latex]": {
+    "editor.wordWrap": "on"
+  },
+  // JSON
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // HTML
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // File Explorer
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  // Minimal Mode
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.silentNotifications": false,
+  // Terminal
+  "terminal.external.osxExec": "kitty.app",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontSize": 17,
+  // Telemetry
+  "telemetry.telemetryLevel": "off",
+  // Git
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+  // Python
+  "python.defaultInterpreterPath": "python3",
+  "python.experiments.enabled": false,
+  "notebook.formatOnSave.enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  // Clangd (C++ LSP)
+  "clangd.checkUpdates": true,
+  // CMake (C++ Build Tool)
+  "cmake.configureOnOpen": false,
+  "cmake.showOptionsMovedNotification": false,
+  "clangd.path": "/home/ayush/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/17.0.3/clangd_17.0.3/bin/clangd",
+  "catppuccin.italicKeywords": false,
+  "catppuccin.italicComments": false,
+  "window.menuBarVisibility": "toggle",
+  // Activity Bar Icons in Status Bar
+  "activitusbar.alignment": "Right",
+  "zenMode.showTabs": "none",
+  "workbench.activityBar.location": "hidden",
+  "update.mode": "manual",
+  "cmake.options.statusBarVisibility": "icon"
+}
