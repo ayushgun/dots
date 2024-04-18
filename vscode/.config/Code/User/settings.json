@@ -6,9 +6,14 @@
   "files.associations": {
     "*.json": "json"
   },
+  "prettier.prettierPath": "prettier",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "update.mode": "manual",
   "workbench.tips.enabled": false,
   "window.commandCenter": false,
   "window.menuBarVisibility": "toggle",
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Catppuccin Mocha",
   // Editor
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -21,6 +26,9 @@
   "editor.fontLigatures": true,
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",
+  "editor.renderLineHighlight": "none",
+  "editor.cursorStyle": "block-outline",
+  "editor.scrollbar.vertical": "hidden",
   "explorer.sortOrder": "type",
   "editor.bracketPairColorization.enabled": false,
   // C++
@@ -60,6 +68,7 @@
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
   "zenMode.silentNotifications": false,
+  "zenMode.showTabs": "none",
   // Terminal
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.fontSize": 18,
@@ -83,13 +92,4 @@
   "cmake.showOptionsMovedNotification": false,
   // Activity Bar Icons in Status Bar
   "activitusbar.alignment": "Right",
-  "zenMode.showTabs": "none",
-  "workbench.activityBar.location": "hidden",
-  "update.mode": "manual",
-  "security.workspace.trust.untrustedFiles": "open",
-  "prettier.prettierPath": "prettier",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "editor.renderLineHighlight": "none",
-  "editor.cursorStyle": "block-outline"
 }
