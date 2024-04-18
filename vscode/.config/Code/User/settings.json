@@ -11,16 +11,14 @@
   "window.menuBarVisibility": "toggle",
   // Editor
   "editor.cursorBlinking": "smooth",
-  "editor.cursorStyle": "block-outline",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "Liga SFMono Nerd Font",
+  "editor.fontSize": 18,
   "editor.formatOnSave": true,
   "editor.minimap.autohide": true,
   "editor.foldingHighlight": false,
   "editor.smoothScrolling": true,
   "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "none",
   "editor.guides.indentation": false,
   "editor.inlayHints.enabled": "off",
   "explorer.sortOrder": "type",
@@ -64,7 +62,7 @@
   "zenMode.silentNotifications": false,
   // Terminal
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 18,
   // Telemetry
   "telemetry.telemetryLevel": "off",
   // Git
@@ -91,5 +89,7 @@
   "security.workspace.trust.untrustedFiles": "open",
   "prettier.prettierPath": "prettier",
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Catppuccin Mocha"
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.renderLineHighlight": "none",
+  "editor.cursorStyle": "block-outline"
 }
