@@ -1,0 +1,15 @@
+[global]
+format = "<b>%s</b>\n%b"
+
+max_icon_size = 64
+enable_recursive_icon_lookup = true
+
+origin = top-right
+offset = 15x15
+frame_width = 2
+frame_color = "#89b4fa"
+separator_color= frame
+font = "JetBrainsMono Nerd Font 10"
+corner_radius = 7
+background = "#1e1e2e"
+foreground = "#89b4fa"

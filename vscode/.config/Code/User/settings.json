@@ -1,12 +1,14 @@
 {
+  "catppuccin.italicKeywords": false,
+  "catppuccin.italicComments": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.layoutControl.enabled": false,
   "files.associations": {
     "*.json": "json"
   },
   "workbench.tips.enabled": false,
   "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
   // Editor
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "block-outline",
@@ -61,9 +63,8 @@
   "zenMode.hideStatusBar": false,
   "zenMode.silentNotifications": false,
   // Terminal
-  "terminal.external.osxExec": "kitty.app",
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontSize": 16,
   // Telemetry
   "telemetry.telemetryLevel": "off",
   // Git
@@ -77,18 +78,18 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   // Clangd (C++ LSP)
-  "clangd.checkUpdates": true,
+  "clangd.checkUpdates": false,
+  "clangd.path": "/usr/bin/clangd",
   // CMake (C++ Build Tool)
   "cmake.configureOnOpen": false,
   "cmake.showOptionsMovedNotification": false,
-  "clangd.path": "/home/ayush/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/17.0.3/clangd_17.0.3/bin/clangd",
-  "catppuccin.italicKeywords": false,
-  "catppuccin.italicComments": false,
-  "window.menuBarVisibility": "toggle",
   // Activity Bar Icons in Status Bar
   "activitusbar.alignment": "Right",
   "zenMode.showTabs": "none",
   "workbench.activityBar.location": "hidden",
   "update.mode": "manual",
-  "cmake.options.statusBarVisibility": "icon"
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.prettierPath": "prettier",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Catppuccin Mocha"
 }
