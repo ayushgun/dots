@@ -19,11 +19,6 @@ button:hover {
     background-color: rgba(49, 50, 68, 0.1);
 }
 
-/* button:focus {
-    background-color: #f5e0dc;
-    color: #1e1e2e;
-} */
-
 #lock {
     background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
 }

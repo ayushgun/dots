@@ -1,82 +1,75 @@
-/* Global styles */
 * {
-  border: none;
-  font-family: "JetBrainsMono Nerd Font";
-  font-size: 15px;
-  min-height: 30px;
+    border: none;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 15px;
+    min-height: 35px;
 }
 
-/* Styles for the Waybar window */
 window#waybar {
-  background: transparent;
+    background: transparent;
 }
 
-/* Styles for custom Arch and workspace elements */
-#custom-arch,
-#workspaces {
-  border-radius: 10px;
-  background-color: #1e1e2e;
-  color: #b4befe;
-  margin-top: 15px;
-  margin-right: 15px;
-  padding-top: 1px;
-  padding-left: 5px;
-  padding-right: 7px;
-}
-
-/* Specific styles for the custom Arch element */
 #custom-arch {
-  font-size: 17px;
-  margin-left: 20px;
-  padding-left: 13px;
-  padding-right: 20px;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-left: 15px;
 }
 
-/* Styles for buttons in workspaces */
+#workspaces {
+    background-color: #1e1e2e;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-right: 7px;
+}
+
 #workspaces button {
-  background: #1e1e2e;
-  color: #b4befe;
+    color: #cdd6f4;
+    font-size: 15px;
+    padding-left: 15px;
 }
 
-/* Styles for window, clock, pulseaudio, bluetooth, network, and battery elements */
-#window,
-#clock,
-#pulseaudio,
-#bluetooth,
-#network,
-#battery {
-  border-radius: 10px;
-  background-color: #1e1e2e;
-  color: #cdd6f4;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 15px;
+#window {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 
-/* Specific style adjustments for bluetooth */
-#bluetooth {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  padding-right: 5px;
-  margin-right: 0;
-}
-
-/* Specific style adjustments for pulseaudio and network */
-#pulseaudio,
-#network {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding-left: 5px;
-}
-
-/* Specific style adjustments for the clock */
 #clock {
-  margin-right: -10px;
-  padding-right: 15px;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 
-/* Specific style adjustment for the network */
+#wireplumber {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #network {
-  margin-right: 25px;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-top: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
 }
